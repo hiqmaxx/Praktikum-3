@@ -14,7 +14,7 @@
         <form action="/submit-profile" method="post" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="name">Name:</label>
+                <label for="names">Name:</label>
                 <input type="text" class="form-control" name="name" required>
             </div>
             <div class="form-group">
